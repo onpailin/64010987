@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+	float a,b,c,A=0;
+	scanf("%f %f %f",&a,&b,&c);
+	A=(sqrt(3)/4)*pow(a,2);
+	printf("%0.2f",A);
+		return 0;
+}

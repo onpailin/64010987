@@ -1,9 +1,0 @@
-#include <stdio.h>
-int main(){ 
-	int a,b,c,d,e,f,g,h,i,j,average=0;
-	scanf("%d %d %d %d %d %d %d %d %d %d",&a,&b,&c,&d,&e,&f,&g,&h,&i,&j);
-	printf("student1: %dcm\nstudent2: %dcm\nstudent3: %dcm\nstudent4: %dcm\nstudent5: %dcm\nstudent6: %dcm\nstudent7: %dcm\nstudent8: %dcm\nstudent9: %dcm\nstudent10: %dcm\n",a,b,c,d,e,f,g,h,i,j);
-	average=(a+b+c+d+e+f+g+h+i+j)/10;
-	printf("Average height of 10 students: %d",average);
-	return 0;
-}

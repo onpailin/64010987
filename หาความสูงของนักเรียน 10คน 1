@@ -1,0 +1,33 @@
+#include <stdio.h>
+int main(){ 
+int x;
+	printf("\nInput number of students = ");
+	scanf("%d",&x);
+	int a,b,c,d,e,f,g,h,i,j;
+	printf("student1: ",a);
+	scanf("%d",&a);
+	printf("student2: ",b);
+	scanf("%d",&b);
+	printf("student3: ",c);
+	scanf("%d",&c);
+	printf("student4: ",d);
+	scanf("%d",&d);
+	printf("student5: ",e);
+	scanf("%d",&e);
+	printf("student6: ",f);
+	scanf("%d",&f);
+	printf("student7: ",g);
+	scanf("%d",&g);
+	printf("student8: ",h);
+	scanf("%d",&h);
+	printf("student9: ",i);
+	scanf("%d",&i);
+	printf("student10: ",j);
+	scanf("%d",&j);
+	int sum = 0;
+	int average =0;
+	sum=a+b+c+d+e+f+g+h+i+j;
+	average =sum/10;
+	printf("\nAverage height of 10 students = %d",average);
+	return 0;
+}

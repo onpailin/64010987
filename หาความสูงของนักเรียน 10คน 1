@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main(){ 
 int x;
-	printf("\nInput number of students = ");
 	scanf("%d",&x);
 	int a,b,c,d,e,f,g,h,i,j;
 	printf("student1: ",a);

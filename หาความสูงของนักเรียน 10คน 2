@@ -2,7 +2,6 @@
 main(){
 	int i,length;
 	
-	printf("\nInput number of students = ");
 	scanf("%d",&length);
 	
 	int score[length];

@@ -1,0 +1,14 @@
+#include<string.h>
+#include<stdio.h>
+int main()
+{
+	char text[100];
+	char a,i;
+	gets(text);
+	a=strlen(text);
+	for(i=0; a>=i;a--)
+	{
+		printf("%c",text[a]);
+	}
+	return 0;
+}

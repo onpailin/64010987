@@ -1,0 +1,16 @@
+#include  <stdio.h>
+int   main (void)
+{
+     int  a, b;
+     int  max;
+     printf("Enter 2 integers : ");
+     scanf("%d %d", &a, &b);
+	 max = b;		
+     if ( a > max )
+          max = a;
+     else if ( b > max )
+          max = b;
+     printf("maximum = %d\n", max);
+
+     return 0;
+}

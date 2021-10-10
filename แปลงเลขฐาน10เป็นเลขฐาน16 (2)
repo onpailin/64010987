@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main() {
+	int i;
+	printf("Decimal = ");
+	scanf(" %d",&i);
+	printf("Hexadecimal = ");
+	printf("%X",i);
+	return 0;
+}
